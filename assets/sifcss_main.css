@@ -1,0 +1,108 @@
+#insGram_widget {
+	position: relative;
+}
+@font-face {
+	font-family: SourceSansPro-Semibold;
+	src: url(SourceSansPro-Semibold.otf);
+}
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+#sif_insGram1 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #592d21;
+	background-color: #fff;
+	position: fixed;
+}
+#sif_insGram2 {
+	overflow: hidden;
+	text-align: left;
+}
+#sif_insGram1 img {
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#sif_insGram1 iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.sif_outer{
+	width:44%;
+	background:#fff;
+}
+.sif_outer > h2.top-style {
+	background: #592d21;
+	color: #fff;
+	font-family: SourceSansPro-Semibold;
+	font-size: 28px !important;
+	padding: 15px 0!important;
+	text-align: center;
+	font-weight: normal;
+	margin: 22px 0;
+}
+.sif_outer .submit {
+	text-align: center;
+	width: 100%;
+}
+.sif_outer .submit .button-success-012 {
+    background: #592d21 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0;
+    padding: 20px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+.sif_outer th {
+	color: #592d21;
+	font-size:15px;
+}
+.sif_outer h2 {
+	color: #517fa4;
+	font-size: 26px;
+}
+.sif_outer .form-table input {
+	background: #fff;
+	border: 1px solid #592d21;
+	height: 35px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.sif_outer select {
+	border: 1px solid #517fa4;
+	border-radius: 3px;
+}
+#sif_insGram_widget_display .open{display:block; visibility:visible;}
+.sif_outer .form-table input[type=radio] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #517fa4;
+    border-radius: 3px;
+    color: #666;
+    height: 35px;
+    width: auto;
+}
+form.sif_frm {
+       padding: 0 10px 0 20px;
+}
+.sif_outer input[type="submit"]:hover, 
+.sif_outerinput[type="submit"]:focus {
+ 	background: #666 none repeat scroll 0 0 !important;
+    color: #fff !important;
+    outline: medium none !important;
+    transition: all 1s ease 0s;	
+}
